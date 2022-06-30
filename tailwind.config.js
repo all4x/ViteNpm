@@ -7,7 +7,7 @@ module.exports = {
     },
 
     backgroundImage: {
-      galaxy: "url('./endless-constellation.svg')",
+      galaxy: "url('./src/components/background.jsx')",
     },
 
     extend: {},

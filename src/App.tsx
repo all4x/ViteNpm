@@ -12,7 +12,9 @@ function App() {
           />
         </div>
       </div>
-      <div><Counter /></div>
+      <div>
+        <Counter />
+      </div>
     </div>
   );
 }
