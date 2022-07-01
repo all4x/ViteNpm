@@ -30,7 +30,7 @@ export function DogImage() {
           onClick={() => setNewDog(false)}
           className=" p-2 text-white border-2 bg-blue-600 font-semibold"
         >
-          GERADOR
+          GERAR OTO
         </button>
       </div>
     </>
