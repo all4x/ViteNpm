@@ -23,7 +23,7 @@ export function DogImage() {
   ) : (
     <>
       <div className="flex justify-center p-3 border-blue-500 border-2">
-        <img src={dogImage}></img>
+        <img src={dogImage} className="h-60 w-60"></img>
       </div>
       <div className="flex justify-center mb-10">
         <button
