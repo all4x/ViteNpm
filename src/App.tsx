@@ -1,4 +1,3 @@
-import Counter from "./components/count";
 import { DogImage } from "./components/reposity";
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
           />
         </div>
       </div>
-      <div className="space-y-5">
+      <div className="space-y-5 mb-10">
         <h1 className="text-center text-2xl font-normal text-gray-200">Gerador de Dog🐶</h1>
         <DogImage />
       </div>
