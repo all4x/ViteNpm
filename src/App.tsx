@@ -1,5 +1,5 @@
 import Counter from "./components/count";
-import DogImage from "./components/reposity";
+import { DogImage } from "./components/reposity";
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function DogImage() {
+export function DogImage() {
   const [dogImage, setDogImage] = useState();
   const [loading, setLoading] = useState(false);
 
@@ -26,5 +26,3 @@ function DogImage() {
     </>
   );
 }
-
-export default DogImage();
