@@ -12,7 +12,6 @@ export function DogImage() {
       .then((Response) => Response.json())
       .then((Object) => {
         setDogImage(Object.message);
-
         setLoading(false);
         setNewDog(true);
       });
@@ -22,13 +21,13 @@ export function DogImage() {
     <div className="text-center font-thin text-3xl text-white">Loadging...</div>
   ) : (
     <>
-      <div className="flex justify-center p-3 border-blue-500 border-2">
-        <img src={dogImage} className="h-60 w-60"></img>
+      <div className="flex justify-center">
+        <img src={dogImage} className="h-60 w-60 border-2 border-blue-500"></img>
       </div>
       <div className="flex justify-center mb-10">
         <button
           onClick={() => setNewDog(false)}
-          className=" p-2 text-white border-2 bg-blue-600 font-semibold"
+          className=" p-2 text-white bg-blue-600 border-2 border-blue-50 font-semibold"
         >
           GERAR OTO
         </button>
