@@ -21,7 +21,7 @@ export function DogImage() {
     <div className="text-center font-thin text-3xl text-white">Loadging...</div>
   ) : (
     <>
-      <div className="flex justify-center">
+      <div className="flex justify-center p-3">
         <img src={dogImage} className="h-60 w-60 border-2 border-blue-500"></img>
       </div>
       <div className="flex justify-center mb-10">
