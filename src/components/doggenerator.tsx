@@ -25,10 +25,14 @@ export function DogImage() {
       <div className="flex justify-center p-3">
         <img src={dogImage} className="h-60 w-60 border-2 rounded-lg border-blue-500"></img>
       </div>
-      <span className="text-center flex justify-center pb-2 text-white text-xl">{generator}</span>
+      <span className="text-center flex justify-center pb-2 text-white text-xl">
+        Você gerou {generator}
+      </span>
       <div className="flex justify-center mb-10">
         <button
-          onClick={() => { setNewDog(false), newGenerator(generator + 1) }}
+          onClick={() => {
+            setNewDog(false), newGenerator(generator + 1);
+          }}
           className=" p-2 text-white bg-blue-600 border-2 border-blue-50 font-semibold"
         >
           GERAR OTO
