@@ -18,7 +18,7 @@ const MyComponent = (props) => {
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
-          backgroundColor: 0x8080c,
+          backgroundColor: 0x0,
           color1: 0xe334a5,
           color2: 0x4e01c3,
           colorMode: "lerpGradient",
@@ -29,7 +29,6 @@ const MyComponent = (props) => {
           alignment: 13.0,
           cohesion: 1.0,
           quantity: 3.0,
-          backgroundAlpha: 0.85,
         })
       );
     }
