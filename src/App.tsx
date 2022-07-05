@@ -14,7 +14,7 @@ function App() {
       </div>
       <div className="xl:flex justify-center items-center bg-black pt-4">
         <div className="h-screen">
-          <h1 className="text-center text-2xl font-normal text-gray-200">Gerador de Cat🐱</h1>
+          <h1 className="text-center text-2xl font-normal text-gray-200"> Gerador de meow🐱</h1>
           <CatImage />
         </div>
       </div>
