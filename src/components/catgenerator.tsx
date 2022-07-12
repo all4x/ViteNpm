@@ -8,15 +8,6 @@ export function CatImage() {
   const [generator, newGenerator] = useState<any | number>(0);
   const url = "https://api.thecatapi.com/v1/images/search";
 
-  //   fetch("https://dog.ceo/api/breeds/image/random")
-  //     .then((Response) => Response.json())
-  //     .then((Object) => {
-  //       setDogImage(Object.message);
-  //       setLoading(false);
-  //       setNewDog(true);
-  //     });
-  // }, [newDog]);
-
   useEffect(() => {
     setLoading(true);
 
@@ -42,7 +33,7 @@ export function CatImage() {
   ) : (
     <>
       <div className="flex justify-center p-3">
-        <img src={catImage} className="h-60 w-60  rounded-lg border-2 bg-purple-500"></img>
+        <img src={catImage} className="h-48 w-48  rounded-lg border-2 bg-purple-500"></img>
       </div>
 
       <span className="text-center flex justify-center pb-2 text-white text-xl">
@@ -54,7 +45,7 @@ export function CatImage() {
           onClick={() => {
             setNewCat(true), newGenerator(generator + 1);
           }}
-          className=" p-2 text-white border-2 border-purple-50 bg-purple-600 font-semibold"
+          className=" hover:bg-blue-500 p-2 mb-5 text-white border-2 border-purple-50 bg-purple-600 font-semibold"
         >
           GERAR OTO
         </button>
