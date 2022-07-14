@@ -37,7 +37,7 @@ const MyComponent = (props) => {
     };
   }, [vantaEffect]);
   return (
-    <div ref={myRef}>
+    <div ref={myRef} className="h-screen">
       <App />
     </div>
   );
