@@ -19,9 +19,7 @@ function App() {
           <h1 className="text-center text-2xl font-normal text-gray-200"> Gerador de meow🐱</h1>
           <CatImage />
         </div>
-        <div className="m-2">
-          <Repos />
-        </div>
+        <Repos />
       </div>
     </div>
   );

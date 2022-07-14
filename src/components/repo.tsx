@@ -11,7 +11,7 @@ export const Repo = ({
   return (
     <li className=" list-none">
       <a href={html_url}>
-        <div className="bg-black rounded-md  border-2 border-white grid gap-2 hover:border-white hover:bg-purple-500 ">
+        <div className="bg-black rounded-md m-4 border-2 grid gap-2 hover:border-white hover:bg-purple-500 ">
           <div className="flex justify-between p-2 space-x-2">
             <p className="font-roboto text-sky-600">project</p>
             <h2 className="font-roboto text-red-500">{name}</h2>
