@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import BIRDS from "vanta/dist/vanta.birds.min";
+import BIRDS from "vanta/dist/vanta.net.min.js";
 // Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
 import App from "../App.tsx";
 
@@ -18,17 +18,11 @@ const MyComponent = (props) => {
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
-          backgroundColor: 0x0,
-          color1: 0xe334a5,
-          color2: 0x4e01c3,
-          colorMode: "lerpGradient",
-          birdSize: 0.7,
-          wingSpan: 11.0,
-          speedLimit: 2.0,
-          separation: 5.0,
-          alignment: 13.0,
-          cohesion: 1.0,
-          quantity: 3.0,
+          color: 0x9b169b,
+          backgroundColor: 0xd2b7ff,
+          points: 6.0,
+          maxDistance: 13.0,
+          spacing: 16.0,
         })
       );
     }

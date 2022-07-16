@@ -1,13 +1,13 @@
 import { CatImage } from "./components/catgenerator";
-import { SideBar } from "./components/social";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
     <div className="font-roboto text-3x">
-      <SideBar />
+      <Navbar />
       <div className="xl:flex justify-center items-center pt-4">
         <div className="mt-10">
-          <h1 className="text-center text-2xl font-normal text-gray-200"> Gerador de meow🐱</h1>
+          <h1 className="text-center text-2xl font-thin text-gray-800"> Gerador de meow🐱</h1>
           <CatImage />
         </div>
       </div>
