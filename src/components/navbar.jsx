@@ -5,11 +5,11 @@ export default function Nav() {
     <>
       <Navbar fluid={true} rounded={true}>
         <Navbar.Brand href="/">
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 pr-3">
             <Avatar img="https://www.github.com/all4x.png" rounded={true} bordered={true} />
           </div>
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-            Álex
+            Álex Rodrigues
           </span>
         </Navbar.Brand>
         <div className="flex md:order-2">

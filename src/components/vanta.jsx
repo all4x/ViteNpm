@@ -18,10 +18,10 @@ const MyComponent = (props) => {
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
-          color: 0x9b169b,
-          backgroundColor: 0xd2b7ff,
-          points: 6.0,
-          maxDistance: 13.0,
+          color: 0x484193,
+          backgroundColor: 0xe1e1e1,
+          points: 3.0,
+          maxDistance: 11.0,
           spacing: 16.0,
         })
       );

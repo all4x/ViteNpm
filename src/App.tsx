@@ -7,7 +7,7 @@ function App() {
       <Navbar />
       <div className="xl:flex justify-center items-center pt-4">
         <div className="mt-10">
-          <h1 className="text-center text-2xl font-thin text-gray-800"> Gerador de meow🐱</h1>
+          <h1 className="text-center text-2xl font-roboto text-gray-800"> Gerador de meow🐱</h1>
           <CatImage />
         </div>
       </div>

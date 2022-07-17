@@ -33,7 +33,7 @@ export function CatImage() {
       <div className="flex justify-center p-3">
         <img
           src={catImage}
-          className="h-48 w-48 xl:h-80 xl:w-80 rounded-lg border-2 border-purple-800 bg-purple-500"
+          className="h-48 w-48 xl:h-96 xl:w-96 rounded-lg border-2 border-purple-800 bg-purple-500"
         ></img>
       </div>
 
@@ -46,7 +46,7 @@ export function CatImage() {
           onClick={() => {
             setNewCat(true), newGenerator(generator + 1);
           }}
-          className=" hover:bg-blue-500 p-2 mb-5 text-gray-800 border-2 border-purple-800 bg-purple-100 font-semibold"
+          className=" hover:bg-blue-500 p-2 text-gray-800 border-2 border-purple-800 bg-purple-100 font-semibold"
         >
           GERAR OTO
         </button>
