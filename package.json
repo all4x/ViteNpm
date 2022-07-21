@@ -1,5 +1,5 @@
 {
-  "name": "myblog",
+  "name": "test",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -38,5 +38,9 @@
     "tailwindcss": "^3.1.4",
     "typescript": "^4.6.3",
     "vite": "^2.9.9"
-  }
+  },
+  "main": "app",
+  "repository": "git@github.com:all4x/ViteNpm.git",
+  "author": "all4x <estudar0101@gmail.com>",
+  "license": "MIT"
 }
